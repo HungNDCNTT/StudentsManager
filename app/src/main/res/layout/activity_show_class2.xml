@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Main2">
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="10dp"
+android:background="@android:color/holo_orange_light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="LIST CLASS"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="10dp"
+android:background="#FFC107">
+<TextView
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:text="STT"
+    android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="CLASS ID"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLASS NAME"
+        android:textColor="#fff" />
+</LinearLayout>
+<ListView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/lv"/>
+    </LinearLayout>
